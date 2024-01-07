@@ -1,0 +1,5 @@
+/usr/local/hbase/bin/hbase shell
+create 'property_data', 'location','dates','property_details'
+create 'price_data', 'location','property_details'
+describe 'property_data'
+describe 'price_data'
